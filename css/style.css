@@ -503,3 +503,17 @@ footer {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-info, .contact-form {
+        flex-basis: 100%;
+    }
+
+    .contact-info {
+        padding: 20px 0; /* Adjust padding for mobile */
+    }
+}
+
