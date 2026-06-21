@@ -13,11 +13,11 @@ export default function Navbar() {
           <Link href="/">لؤي الغيطاني .</Link>
         </div>
 
-        {/* لينكات الشاشات الكبيرة */}
+        {/* لينكات الشاشات الكبيرة - تم تعديل المسارات لتبدأ بـ / لتعمل من أي مكان */}
         <ul className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
           <li>
             <Link
-              href="#hero"
+              href="/#hero"
               className="hover:text-blue-600 transition-colors"
             >
               الرئيسية
@@ -25,7 +25,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#projects"
+              href="/#projects"
               className="hover:text-blue-600 transition-colors"
             >
               المشاريع
@@ -33,7 +33,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#services"
+              href="/#services"
               className="hover:text-blue-600 transition-colors"
             >
               الخدمات
@@ -41,7 +41,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="/#contact"
               className="hover:text-blue-600 transition-colors"
             >
               تواصل معي
@@ -52,7 +52,7 @@ export default function Navbar() {
         {/* زرار الـ CTA بالنافبار */}
         <div className="hidden md:block">
           <Link
-            href="#contact"
+            href="/#contact"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all shadow-sm shadow-blue-200"
           >
             وظفني
@@ -89,32 +89,32 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* قائمة الموبايل المنسدلة */}
+      {/* قائمة الموبايل المنسدلة - تم تعديل المسارات هنا أيضاً */}
       {isOpen && (
         <div className="md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-4 space-y-1 shadow-lg">
           <Link
-            href="#hero"
+            href="/#hero"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-600"
           >
             الرئيسية
           </Link>
           <Link
-            href="#projects"
+            href="/#projects"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-600"
           >
             المشاريع
           </Link>
           <Link
-            href="#services"
+            href="/#services"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-600"
           >
             الخدمات
           </Link>
           <Link
-            href="#contact"
+            href="/#contact"
             onClick={() => setIsOpen(false)}
             className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-blue-600"
           >
