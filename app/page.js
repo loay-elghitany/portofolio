@@ -35,14 +35,6 @@ export default function Home() {
       tags: ["JavaScript ES6", "HTML5", "CSS3", "WhatsApp Integration"],
       link: "https://loay-elghitany.github.io/fetohBrathers/",
     },
-    {
-      id: "fitnessgym",
-      title: "موقع إلكتروني لجيم يساعده على تقديم خدمه أفضل لأعضاء الجيم",
-      description:
-        "موقع يسهل على المدرب والمتدرب رحلتهم التدريبية من خلال تنظيم التمارين والأنظمة الغذائية للمتدرب وإعلمه بعدد المتدربين الحاليين في الجيم وغيرها من الخدمات.",
-      tags: ["Next.js", "Express", "MongoDB", "Cloudinary", "Tailwind CSS"],
-      link: "https://fitnessgym.mydoc90.com/",
-    },
   ];
 
   // بيانات الخدمات الاحترافية اللي بتقدمها
